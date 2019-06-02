@@ -6,7 +6,7 @@
 
 #define BASE_SIZE 100 // Base size of the chained hash map
 #define MAX_CHAINED_DATA 5 //will resize the chained hash map by BASE_INCREASE times if the number of data chained for a certain key exceedes 5
-#define BASE_INCREASE 2 // Represents by what factor the has map is resized by (WILL THROW_EXCEPTION IF BASE_INCREASE < 1)
+#define BASE_INCREASE 2 // Represents by what factor the has map is resized by
 
 
 
